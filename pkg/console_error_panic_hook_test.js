@@ -37,15 +37,4 @@ module.exports.panic = function() {
     return wasm.panic();
 };
 
-const __wbg_error_cc95a3d302735ca3_target = console.error;
-
-module.exports.__wbg_error_cc95a3d302735ca3 = function(arg0, arg1) {
-    let varg0 = getStringFromWasm(arg0, arg1);
-
-    varg0 = varg0.slice();
-    wasm.__wbindgen_free(arg0, arg1 * 1);
-
-    __wbg_error_cc95a3d302735ca3_target(varg0);
-};
-
 wasm = require('./console_error_panic_hook_test_bg');
