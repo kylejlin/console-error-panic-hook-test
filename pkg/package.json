@@ -1,0 +1,14 @@
+{
+  "name": "console-error-panic-hook-test",
+  "collaborators": [
+    "Kyle Lin <kylejlin.us@gmail.com>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "console_error_panic_hook_test_bg.wasm",
+    "console_error_panic_hook_test_bg.js",
+    "console_error_panic_hook_test.d.ts"
+  ],
+  "main": "console_error_panic_hook_test.js",
+  "types": "console_error_panic_hook_test.d.ts"
+}
