@@ -31,5 +31,5 @@ pub fn greet() {
 #[wasm_bindgen]
 pub fn panic() {
     console_error_panic_hook::set_once();
-    panic!("Oh no!");
+    log(vec!["a", "b", "c"][4]);
 }
